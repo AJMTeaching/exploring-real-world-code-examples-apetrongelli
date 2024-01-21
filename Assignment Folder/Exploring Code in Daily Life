@@ -1,0 +1,32 @@
+# Exploring Code in Daily Life
+## Nine Blurbs
+### Code that specifies when an alarm clock should start making audible sounds
+[Github Link](https://github.com/v0di/alarm-clock/blob/main/alarm-clock/main.py) (Lines 63-97).
+The linked code shows how an alarm clock knows when to start making audible sounds. First, an alarm widget must be created, which shows the active alarm times. Next it converts the hour, minute, second format into datetime format. Finally, it continuously checks the current time to see if it is equal to the alarm time. If the current time is equal to the alarm time, an audible sound will begin playing.
+### Code for a rocket targetting system 
+[Github Link](https://github.com/yuzawa-san/HomingDevice/blob/master/HomingDevice.js)
+This code shows how a homing device tracks its target. It is programmed for the device's position and the target's position to be equal
+### File compression utility algorithm
+[Github Link](https://github.com/sspeedy99/File-Compression/commit/f4ac2337a4424942e60fd665c3266ba744614c2d#diff-0f1095e4923357173690e5527b84d078aad8aa50a65f07496a31ed3593021ef3) (All files in "Source" folder).
+This code shows how files can be automatically compressed using a program. This specific program finds frequent characters from the file and replaces them with a short binary codeword. To unzip the compressed file, the program decodes the binary codewords it previously assigned to the frequent characters.
+### Weather forecasting algorithm
+[Github Link](https://github.com/martykan/forecastie).
+This code shows how the program gathers data from a public weather forecast API. After a location and date are inputted, it returns a forecast by pulling it from the API.
+### E-commerce checkout system process
+[Github Link](https://github.com/vinita2000/E-Commerce-website-using-html-css-Js/tree/master/web1) (Files: "Cart", "Checkout", and "Order"). The "Cart" file displays the customers shopping cart and gives them the option to checkout or keep shopping. The "Checkout" file displays the total cost of the items and also prompts the user to insert their shipping and contact information. The "Order" file is the final checkout page; it prompts the user to fill out their payment and billing information, and gives has them select payment type.
+### Social media post scheduler
+[Github Link](https://github.com/theju/smp/blob/master/scheduler/models.py#L12) (lines 12-26).
+The linked code shows how a program can automatically publish a post on social media at any time you want it to. First the program prompts the user to select which social media platform they want to schedule a post on. Then it prompts the user to select a time and upload any media files that should be included in the post. When the time is equal to the user's selected post-time, the program will publish the post.
+### Fitness app calorie counter
+[Github Link](https://github.com/philipplackner/CalorieTracker/commit/2c9624606598bfcc7a5de11877d54f890fbcde76#diff-58a85da2ed5c8732bd4a3272ceb577742c118fb347c6cc0a2763e1a7a2582b0a) (lines 84-113). The linked code shows how a calorie tracker tracks nutrition facts, and compares them with the user's goal. It shows the ability to track carbs, protein, fat, and calories. Then it displays the total for each respective categroy.
+### Online voting system mechanics
+[Github Link](https://github.com/errbotio/err-poll/blob/master/poll.py) (lines 157-195). The linked code shows how a user interacts with an active poll. The program promts the user to vote for an option using an assigned numerical value between 1 and x. If the voter inputs an invalid number, or if the voter has already voted, an error message will be shown.
+### Automated email response system
+[Github Link](https://github.com/COLONAYUSH/Vacation_Email_AutoResponder/blob/main/check-emails.js) (lines 31-60). This code shows how a program decides if an automatic reply should be sent to an email, and what the message should be. When an email is recieved the program checks whether or not an automatic reply has already been sent to the email thread. If no prior reply was sent, the program will send one. The message itself can be edited on line 47 of the code.
+## Code Used In My Own Life
+### Password requirements for creating a new password on a website
+[Github link](https://github.com/cfkarakulak/CriteriaJS/tree/master/src/scripts/Validation). The linked code folder shows how a program verifies that a password satisfies all of the given rules. Each password requirement rule has its own file under the Validation->Rules folder. The rules include character count, capitalization, a special character, and a numerical character. The codes for these rules are imported into "Rules.js" under the Validation folder, where the program checks if the user's password satisfies the requirements. 
+### Elevator system
+[Github link](https://github.com/ngautam0/elevator-system/blob/master/code/elevator/main.py) (lines 58-106). This code shows how the elevator completes its two main tasks. The first task is to travel to the respective floor number when the call button is pressed from outside the elevator. The next task is for the elevator to travel to the floor number that is pressed from inside the elvator. The code also shows how the elevator automatically travels up and down if there are no current call requests.
+### Crosswalk button
+[Github link](https://github.com/MazenMosbah1/Trrafic-light-with-crosswalk-button-USING-ASSEMBLY-LANGUAGE/blob/main/AssemblerApplication5/main.asm) (lines 14-75). This code shows how a program decides what color and shape lights to display depending on what mode it is in. The light is constantly in a loop, switching between car mode and person mode, but person mode can also be enabled by pressing the crosswalk button which will interupt the light loop. Car mode displays a green light for cars and a red light for pedestrians. Person mode displays a green light for pedestrians and a red light for cars. Yellow lights are displayed before the mode changes.
